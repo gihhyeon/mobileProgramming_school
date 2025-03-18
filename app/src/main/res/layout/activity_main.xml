@@ -8,6 +8,30 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이트 홈페이지 열기"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="911 응급전화 걸기"
+        android:id="@+id/btn2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="갤러리 열기"
+        android:id="@+id/btn3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="끝내기"
+        android:id="@+id/btn4"/>
+
 
 
 </LinearLayout>
