@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하시겠습니까?"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+         />
+
+    <Switch
+        android:id="@+id/switchStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작함"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/tvLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 안드로이드 버전은?"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:visibility="invisible"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/rbS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S(12.0)" />
+
+        <RadioButton
+            android:id="@+id/rbT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T(13.0)" />
+
+        <RadioButton
+            android:id="@+id/rbU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U(14.0)" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="종료"
+        android:layout_margin="10dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="처음으로"
+        android:layout_margin="10dp"
+        android:visibility="invisible"/>
+
+
+
+
+</LinearLayout>
